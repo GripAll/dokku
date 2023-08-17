@@ -1,6 +1,6 @@
 /* Global styles (already provided) */
 :root {
-  --ifm-color-primary: #2bb1ff;
+  --ifm-color-primary: #061ab1;
   --ifm-color-primary-dark: #3cad6e;
   --ifm-color-primary-darker: #277148;
   --ifm-color-primary-darkest: #205d3b;
@@ -36,7 +36,7 @@
   /* Change the background color when hovering */
   background-color: #ededed; /* Replace with your desired color */
   /* Apply scaling effect on hover */
-/*  transform: scale(1.1); /* Adjust the scaling factor as desired */
+  transform: scale(1.1); /* Adjust the scaling factor as desired */
 }
 
 
