@@ -20,14 +20,14 @@
 
 /* Dark theme color adjustments (already provided) */
 [data-theme='dark'] {
-  --ifm-color-primary: #ff5a5a;
+  --ifm-color-primary: #2bb1ff;
   --ifm-color-primary-dark: #21af90;
   --ifm-color-primary-darker: #1fa588;
   --ifm-color-primary-darkest: #1a8870;
   --ifm-color-primary-light: #29d5b0;
   --ifm-color-primary-lighter: #32d8b4;
   --ifm-color-primary-lightest: #4fddbf;
-  --ifm-footer-background-color: #06b18c;
+  --ifm-footer-background-color: #CBCBCB;
   --ifm-button-border-color: #000000;
   --ifm-color-secondary:transparent;
   --ifm-footer-link-color: #ffffff;
