@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdokku=self.webpackChunkdokku||[]).push([[535],{5641:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Discord Post","permalink":"/dokku/blog/discord-post"},{"title":"Welcome","permalink":"/dokku/blog/welcome"}]}')}}]);

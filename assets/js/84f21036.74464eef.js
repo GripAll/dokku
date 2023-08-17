@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdokku=self.webpackChunkdokku||[]).push([[191],{1966:k=>{k.exports=JSON.parse('{"label":"hello","permalink":"/dokku/blog/tags/hello","allTagsPath":"/dokku/blog/tags","count":1}')}}]);
