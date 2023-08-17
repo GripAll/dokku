@@ -1,5 +1,10 @@
 /* Global styles (already provided) */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
 :root {
+  --ifm-font-family-base: 'Open Sans';
   --ifm-color-primary: #061ab1;
   --ifm-color-primary-dark: #3cad6e;
   --ifm-color-primary-darker: #277148;
