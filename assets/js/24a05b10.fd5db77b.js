@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdokku=self.webpackChunkdokku||[]).push([[4903],{4085:o=>{o.exports=JSON.parse('{"permalink":"/dokku/blog/tags/docusaurus","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
