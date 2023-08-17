@@ -8,7 +8,7 @@
 :root {
   --ifm-font-family-base: 'Newson', Arial, sans-serif;
   /* --ifm-font-weight-base: 600; /* Set the default semibold font weight */
-
+  --ifm-h3-font-size: 1.7rem;
   --ifm-color-primary: #061ab1;
   --ifm-color-primary-dark: #3cad6e;
   --ifm-color-primary-darker: #277148;
@@ -124,18 +124,13 @@ html[data-theme='dark'] {
   display: flex; /* Use flexbox to arrange items horizontally */
   justify-content: space-between; /* Distribute items evenly along the container */
   flex-wrap: wrap; /* Wrap the items to the next line if they don't fit */
-  margin-bottom: 20px; /* Add spacing between categories */
-}
-
-/* Target each footer category */
-.footer__category {
-  flex-basis: calc(33.33% - 20px); /* Adjust this based on the number of categories */
+  margin-bottom: 1px; /* Add spacing between categories */
 }
 
 /* Target each footer link item */
 .footer__link-item {
   display: block; /* Display as block to remove bullet points or list styles */
-  margin: 5px 0; /* Add vertical spacing between link items */
+  margin: 1px 0; /* Add vertical spacing between link items */
 }
 
 
