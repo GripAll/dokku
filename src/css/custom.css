@@ -20,7 +20,7 @@
   --ifm-button-border-color: #000000;
   --ifm-color-secondary:transparent;
   --ifm-footer-link-color: #ffffff;
-  --ifm-footer-link-hover-color: #9e9e9e;
+  --ifm-footer-link-hover-color: #ffd100;
   --ifm-footer-title-color: #9e9e9e;
 
   --ifm-code-font-size: 95%;
@@ -84,6 +84,17 @@ html[data-theme='dark'] {
   background-color: #ededed; /* Replace with your desired color */
   /* Apply scaling effect on hover */
   transform: scale(1.1); /* Adjust the scaling factor as desired */
+}
+
+
+
+#__docusaurus > footer > div > div.text--center > div > a {
+  color: unset;
+}
+
+#__docusaurus > footer > div > div.text--center > div > a:hover {
+  color: var(--ifm-footer-link-hover-color);
+  text-decoration: underline;
 }
 
 
