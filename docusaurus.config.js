@@ -65,7 +65,7 @@ const config = {
       title: 'Grip',
       logo: {
         alt: 'My Site Logo',
-        src: 'img/newspaper.png',
+        src: 'img/coffeecup.png',
       },
       items: [
         {
