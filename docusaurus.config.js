@@ -79,6 +79,16 @@ const config = {
          //   label: 'Blog',
          //   position: 'left',
          // },
+         {
+          href: 'https://discord.com/users/666230610507071490',
+          label: 'Discord',
+          position: 'right',
+        },
+        {
+          href: 'https://github.com/GripAll',
+          label: 'GitHub',
+          position: 'right',
+        },
       ],
     },
 
