@@ -10,6 +10,7 @@
   /* --ifm-font-weight-base: 600; /* Set the default semibold font weight */
   --ifm-h3-font-size: 1.7rem;
   --ifm-footer-padding-vertical: 0;
+  --ifm-background-color-col: #FFFFFF;
   --ifm-color-primary: #061ab1;
   --ifm-color-primary-dark: #3cad6e;
   --ifm-color-primary-darker: #277148;
@@ -32,6 +33,8 @@
 [data-theme='dark'] {
   --ifm-footer-padding-vertical: 0;
   --ifm-color-primary: #2bb1ff;
+  --ifm-background-color-col: transparent;
+
   --ifm-color-primary-dark: #21af90;
   --ifm-color-primary-darker: #1fa588;
   --ifm-color-primary-darkest: #1a8870;
@@ -58,7 +61,7 @@ html[data-theme='dark'] {
 .col--4 {
   font-family: 'Open Sans', sans-serif;
   font-weight: 600; /* Bold font weight */
-  background-color: #EEEEEE; /* Background color */
+  background-color: var(--ifm-background-color-col); /* Background color */
 
 }
 
