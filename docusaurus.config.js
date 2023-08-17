@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Gripbox',
-  tagline: 'Examine my previous journey',
+ // tagline: 'Examine my previous journey',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
