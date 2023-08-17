@@ -1,10 +1,9 @@
 /* Global styles (already provided) */
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Newson&display=swap'); /* Import Newson font */
 
 :root {
-  --ifm-font-family-base: 'Open Sans';
+  --ifm-font-family-base: 'Newson', Arial, sans-serif;
   --ifm-color-primary: #061ab1;
   --ifm-color-primary-dark: #3cad6e;
   --ifm-color-primary-darker: #277148;
@@ -41,6 +40,15 @@
 
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+
+html[data-theme='dark'] {
+  --ifm-background-color: #1e2125;
+  --ifm-background-surface-color: #121212;
+}
+
+
+
 
 /* Add background color and roundness with smooth scaling when hovering over navbar items */
 .navbar__link {
