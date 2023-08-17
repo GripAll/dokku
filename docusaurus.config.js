@@ -95,7 +95,7 @@ const config = {
       /* style:'', */
       links: [
         {
-          title: 'Roblox',
+          //title: 'Roblox',
           items: [
             {
               label: 'Roblox',
@@ -104,7 +104,7 @@ const config = {
           ],
         },
         {
-          title: 'Discord',
+         // title: 'Discord',
           items: [
             {
               label: 'Discord',
@@ -113,7 +113,7 @@ const config = {
           ],
         },
         {
-          title: 'More',
+         // title: 'More',
           items: [
             {
               label: 'Paypal',
