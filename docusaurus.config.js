@@ -95,32 +95,20 @@ const config = {
       /* style:'', */
       links: [
         {
-          title: 'Docs',
+          title: 'Roblox',
           items: [
-            {
-              label: 'Introduction',
-              to: '/docs/intro',
-            },
-          ],
-        },
-        {
-          title: 'Socials',
-          items: [
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/users/666230610507071490',
-            },
             {
               label: 'Roblox',
               href: 'https://create.roblox.com/talent/creators/3195667595',
             },
+          ],
+        },
+        {
+          title: 'Discord',
+          items: [
             {
-              label: 'Twitter',
-              href: 'https://twitter.com/GripRBLX',
-            },
-            {
-              label: 'Github',
-              href: 'https://github.com/GripAll',
+              label: 'Discord',
+              href: 'https://discordapp.com/users/666230610507071490',
             },
           ],
         },
@@ -131,14 +119,10 @@ const config = {
               label: 'Paypal',
               href: 'https://paypal.me/brinyiczki',
             },
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} GripAll, Built with Docusaurus.`,
+      //copyright: `Copyright © ${new Date().getFullYear()} GripAll, Built with Docusaurus.`,
     },
     prism: {
       theme: lightCodeTheme,
