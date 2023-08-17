@@ -1,13 +1,7 @@
-/**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
- */
-
-/* You can override the default Infima variables here. */
+/* Global styles (already provided) */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
+  --ifm-color-primary: #2bb1ff;
+  --ifm-color-primary-dark: #3cad6e;
   --ifm-color-primary-darker: #277148;
   --ifm-color-primary-darkest: #205d3b;
   --ifm-color-primary-light: #33925d;
@@ -17,7 +11,7 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
+/* Dark theme color adjustments (already provided) */
 [data-theme='dark'] {
   --ifm-color-primary: #25c2a0;
   --ifm-color-primary-dark: #21af90;
@@ -28,3 +22,37 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+/* Add background color and roundness with smooth scaling when hovering over navbar items */
+.navbar__link {
+  /* Add initial background color and roundness */
+  background-color: transparent;
+  border-radius: 5px;
+  /* Add transition for smooth scaling effect */
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.navbar__link:hover {
+  /* Change the background color when hovering */
+  background-color: #ededed; /* Replace with your desired color */
+  /* Apply scaling effect on hover */
+/*  transform: scale(1.1); /* Adjust the scaling factor as desired */
+}
+
+
+
+.button--secondary {
+  /* Add initial background color and roundness */
+  background-color: #ededed;
+  border-radius: 5px;
+  /* Add transition for smooth scaling effect */
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.button--secondary:hover {
+    /* Change the background color when hovering */
+    background-color: #ededed; /* Replace with your desired color */
+    /* Apply scaling effect on hover */
+ /*   transform: scale(1.1); /* Adjust the scaling factor as desired */
+}
+  
