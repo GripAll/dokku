@@ -92,7 +92,7 @@ const config = {
       ],
     },
     footer: {
-      style:'',
+      /* style:'', */
       links: [
         {
           title: 'Docs',
