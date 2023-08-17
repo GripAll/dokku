@@ -10,7 +10,7 @@
   /* --ifm-font-weight-base: 600; /* Set the default semibold font weight */
   --ifm-h3-font-size: 1.7rem;
   --ifm-footer-padding-vertical: 0;
-  --ifm-background-color-col-light: #EEEEEE;
+  --ifm-background-color-col: #EEEEEE;
   --ifm-color-primary: #061ab1;
   --ifm-color-primary-dark: #3cad6e;
   --ifm-color-primary-darker: #277148;
@@ -61,7 +61,7 @@ html[data-theme='dark'] {
 .col--4 {
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
-  background-color: var(--ifm-background-color-col-light); /* Background color for light theme */
+  background-color: var(--ifm-background-color-col); /* Background color for light theme */
 }
 
 .menu__link {
