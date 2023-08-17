@@ -92,7 +92,7 @@ const config = {
       ],
     },
     footer: {
-      style: 'dark',
+      style:'',
       links: [
         {
           title: 'Docs',
@@ -107,7 +107,7 @@ const config = {
           title: 'Socials',
           items: [
             {
-              label: 'Discordia',
+              label: 'Discord',
               href: 'https://discordapp.com/users/666230610507071490',
             },
             {
