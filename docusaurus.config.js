@@ -79,21 +79,13 @@ const config = {
          //   label: 'Blog',
          //   position: 'left',
          // },
-          {
-            href: 'https://discord.com/users/666230610507071490',
-            label: 'Discord',
-            position: 'right',
-          },
-          {
-            href: 'https://github.com/GripAll',
-            label: 'GitHub',
-            position: 'right',
-          },
       ],
     },
-    footer: {
+
+
+   /* footer: {
       /* style:'', */
-      links: [
+    /*  links: [
         {
           //title: 'Roblox',
           items: [
@@ -114,6 +106,7 @@ const config = {
         },
         {
          // title: 'More',
+         
           items: [
             {
               label: 'Paypal',
@@ -123,12 +116,19 @@ const config = {
         },
       ],
       //copyright: `Copyright © ${new Date().getFullYear()} GripAll, Built with Docusaurus.`,
+     
     },
+
     prism: {
       theme: lightCodeTheme,
       darkTheme: darkCodeTheme,
+
     },
+         
   },
+      */
+
+   },
 };
 
 module.exports = config;
