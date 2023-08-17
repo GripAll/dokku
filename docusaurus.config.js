@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Portfolio',
+  title: 'Gripbox',
   tagline: 'Examine my previous journey',
   favicon: 'img/favicon.ico',
 
