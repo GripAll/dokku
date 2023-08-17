@@ -4,6 +4,8 @@
 
 :root {
   --ifm-font-family-base: 'Newson', Arial, sans-serif;
+  --ifm-font-weight-base: 600; /* Set the default semibold font weight */
+
   --ifm-color-primary: #061ab1;
   --ifm-color-primary-dark: #3cad6e;
   --ifm-color-primary-darker: #277148;
@@ -46,6 +48,11 @@ html[data-theme='dark'] {
   --ifm-background-color: #1e2125;
   --ifm-background-surface-color: #121212;
 }
+
+* {
+  font-weight: var(--ifm-font-weight-base, inherit);
+}
+
 
 .footer__link-item {
   font-weight: bold;
