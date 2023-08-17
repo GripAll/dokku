@@ -54,6 +54,7 @@ html[data-theme='dark'] {
 
 /* Add background color and roundness with smooth scaling when hovering over navbar items */
 .navbar__link {
+  font-weight: bold;
   /* Add initial background color and roundness */
   background-color: transparent;
   border-radius: 5px;
