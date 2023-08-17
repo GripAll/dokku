@@ -1,10 +1,13 @@
 /* Global styles (already provided) */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
 
 @import url('https://fonts.googleapis.com/css2?family=Newson&display=swap'); /* Import Newson font */
 
 :root {
   --ifm-font-family-base: 'Newson', Arial, sans-serif;
-  --ifm-font-weight-base: 600; /* Set the default semibold font weight */
+  /* --ifm-font-weight-base: 600; /* Set the default semibold font weight */
 
   --ifm-color-primary: #061ab1;
   --ifm-color-primary-dark: #3cad6e;
@@ -49,10 +52,17 @@ html[data-theme='dark'] {
   --ifm-background-surface-color: #121212;
 }
 
-* {
-  font-weight: var(--ifm-font-weight-base, inherit);
+
+.col--4 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600; /* Bold font weight */
+  background-color: #EEEEEE; /* Background color */
+
 }
 
+.menu__link {
+  font-weight: bold;
+}
 
 .footer__link-item {
   font-weight: bold;
