@@ -47,7 +47,9 @@ html[data-theme='dark'] {
   --ifm-background-surface-color: #121212;
 }
 
-
+.footer__link-item {
+  font-weight: bold;
+}
 
 
 /* Add background color and roundness with smooth scaling when hovering over navbar items */
