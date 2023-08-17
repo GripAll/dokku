@@ -27,7 +27,7 @@
   --ifm-color-primary-lighter: #32d8b4;
   --ifm-color-primary-lightest: #4fddbf;
   --ifm-footer-background-color: #061ab1;
-  
+
   --ifm-footer-link-color: #ffffff;
   --ifm-footer-link-hover-color: #9e9e9e;
   --ifm-footer-title-color: #9e9e9e;
@@ -55,7 +55,7 @@
 
 .button--secondary {
   /* Add initial background color and roundness */
-  background-color: #ededed;
+  background-color: #ffd100;
   border-radius: 5px;
   /* Add transition for smooth scaling effect */
   transition: background-color 0.2s ease, transform 0.2s ease;
@@ -65,6 +65,6 @@
     /* Change the background color when hovering */
     background-color: #ededed; /* Replace with your desired color */
     /* Apply scaling effect on hover */
- /*   transform: scale(1.1); /* Adjust the scaling factor as desired */
+    transform: scale(1.3); /* Adjust the scaling factor as desired */
 }
   
