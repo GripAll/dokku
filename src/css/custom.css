@@ -114,3 +114,34 @@ html[data-theme='dark'] {
     transform: scale(1.3); /* Adjust the scaling factor as desired */
 }
   
+
+
+
+
+
+/* Target the footer container */
+.footer__item {
+  display: flex; /* Use flexbox to arrange items horizontally */
+  justify-content: space-between; /* Distribute items evenly along the container */
+  flex-wrap: wrap; /* Wrap the items to the next line if they don't fit */
+  margin-bottom: 20px; /* Add spacing between categories */
+}
+
+/* Target each footer category */
+.footer__category {
+  flex-basis: calc(33.33% - 20px); /* Adjust this based on the number of categories */
+}
+
+/* Target each footer link item */
+.footer__link-item {
+  display: block; /* Display as block to remove bullet points or list styles */
+  margin: 5px 0; /* Add vertical spacing between link items */
+}
+
+
+
+
+
+
+
+

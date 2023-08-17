@@ -74,11 +74,11 @@ const config = {
             position: 'left',
             label: 'Info',
           },
-          {
-            to: '/blog',
-            label: 'Blog',
-            position: 'left',
-          },
+         // {
+        //    to: '/blog',
+         //   label: 'Blog',
+         //   position: 'left',
+         // },
           {
             href: 'https://discord.com/users/666230610507071490',
             label: 'Discord',
