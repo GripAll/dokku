@@ -9,6 +9,7 @@
   --ifm-font-family-base: 'Newson', Arial, sans-serif;
   /* --ifm-font-weight-base: 600; /* Set the default semibold font weight */
   --ifm-h3-font-size: 1.7rem;
+  --ifm-footer-padding-vertical: 0;
   --ifm-color-primary: #061ab1;
   --ifm-color-primary-dark: #3cad6e;
   --ifm-color-primary-darker: #277148;
@@ -29,6 +30,7 @@
 
 /* Dark theme color adjustments (already provided) */
 [data-theme='dark'] {
+  --ifm-footer-padding-vertical: 0;
   --ifm-color-primary: #2bb1ff;
   --ifm-color-primary-dark: #21af90;
   --ifm-color-primary-darker: #1fa588;
@@ -114,10 +116,6 @@ html[data-theme='dark'] {
     transform: scale(1.3); /* Adjust the scaling factor as desired */
 }
   
-
-
-
-
 
 /* Target the footer container */
 .footer__item {
